@@ -1,0 +1,12 @@
+@charset "utf-8";
+#bg-menu {
+    background-color: #2b9dbc;
+}
+#bg-about,#bg-exp {
+    padding: 20px;
+    background-color: #e0f3ff;
+}
+#bg-skill,#bg-pro {
+    padding: 20px;
+    background-color: rgb(182, 234, 250);
+}
