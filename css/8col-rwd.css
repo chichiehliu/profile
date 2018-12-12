@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* write by ChiChiehLiu */
+/* basic */
+* {
+	box-sizing:border-box;
+}
+body {
+    font-family: "微軟正黑體", sans-serif;
+	padding: 24px 10px;
+	margin:0;
+}
+div {
+	padding: 20px;
+}
+.header {
+    margin: auto;
+}
+
+h1, h2, h3, p, div, a, table, th, td, ul, li, small {
+	margin:0;
+	padding:0;
+	line-height:1;
+	font-weight:normal;
+}
+img {
+	border:none;
+}
+p {
+	font-size:16px;
+}
+.footer {
+	width:100%;
+	padding:5px;
+	display:block;
+	position:fixed;
+	bottom:0px;
+    left:0px;
+    font: 10px;
+	font-size:x-small;
+	text-align:center;
+}
+
+[class*="col-"] {
+
+padding:10px;
+/* float:left; */
+}
+/*手機裝置用*/
+[class*="col-"] {
+width:100%;
+}
+/*平板用*/
+@media only screen and (min-width:720px) {
+.col-m-1 {
+    width:25%;
+}
+.col-m-2 {
+    width:50%;
+}
+.col-m-3 {
+    width:75%;
+}
+.col-m-4 {
+    width:100%;
+}
+}
+/*電腦用*/
+@media only screen and (min-width:1024px) {
+.col-1 {
+width:12.5%;
+}
+.col-2 {
+width:25%;
+}
+.col-3 {
+width:37.5%;
+}
+.col-4 {
+width:50%;
+}
+.col-5 {
+width:62.5%;
+}
+.col-6 {
+width:75%;
+}
+.col-7 {
+width:87.5%;
+}
+.col-8 {
+width:100%;
+}
+}
+
