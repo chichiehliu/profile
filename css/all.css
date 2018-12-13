@@ -5,6 +5,7 @@
     padding:20px 20px 20px 15px;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 #bg-nav ul
 {
@@ -41,7 +42,6 @@
 #bg-about,#bg-exp {
 
     background-color: #e0f3ff;
-    display: block;
     float: left;
 }
 
@@ -56,14 +56,30 @@
     padding: 60px 0 0 0;
     
 }
-#about
+#header
 {
     max-width: 500px;
-    text-align: left;
     margin: 0 auto;
 }
-#about div
-{
+#headerpic{
+    display:block;
+    overflow:hidden;
     float: left;
-    width: 100%
+
+}
+#header img{
+
+    border-radius:5%;
+}
+#headerbox{
+    width: 100%;
+    padding-top: 30px;
+}
+
+#headerbox h2,h3{
+    margin:15px 0;
+}
+
+#headerbox li{
+    margin: 10px 0;
 }

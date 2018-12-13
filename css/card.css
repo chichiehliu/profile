@@ -4,7 +4,7 @@
     width: 300px;
     height: 300px;
     border: 0.3px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 600px; /*Remove this if you don't want the 3D effect*/
 }
 
 /* This container is needed to position the front and back side */
