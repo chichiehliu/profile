@@ -6,14 +6,11 @@
 }
 body {
     font-family: "微軟正黑體", sans-serif;
-	padding: 24px 10px;
-	margin:0;
+	padding: 0px;
+    margin: auto;
 }
 div {
-	padding: 20px;
-}
-.header {
-    margin: auto;
+	padding: 0px;
 }
 
 h1, h2, h3, p, div, a, table, th, td, ul, li, small {
@@ -21,6 +18,7 @@ h1, h2, h3, p, div, a, table, th, td, ul, li, small {
 	padding:0;
 	line-height:1;
 	font-weight:normal;
+	list-style: none;
 }
 img {
 	border:none;
@@ -28,24 +26,12 @@ img {
 p {
 	font-size:16px;
 }
-.footer {
-	width:100%;
-	padding:5px;
-	display:block;
-	position:fixed;
-	bottom:0px;
-    left:0px;
-    font: 10px;
-	font-size:x-small;
-	text-align:center;
-}
 
-[class*="col-"] {
-
-padding:10px;
-/* float:left; */
-}
 /*手機裝置用*/
+[class*="col-"] {
+padding:10px;
+}
+
 [class*="col-"] {
 width:100%;
 }
@@ -62,6 +48,10 @@ width:100%;
 }
 .col-m-4 {
     width:100%;
+}
+#bg-nav ul
+{
+	margin: auto !important;
 }
 }
 /*電腦用*/
